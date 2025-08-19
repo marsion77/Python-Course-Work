@@ -27,4 +27,11 @@ f3()
 print(z)
 
 
+if 5<6:
+    print("Hello")
+elif 5>6:
+ print("hi")
+
+
+
 

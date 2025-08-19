@@ -8,7 +8,7 @@ print(type(marks))
 
 print(name)
 
-favorite_actors = "surya","vijay","ajith"
+favorite_fruits = "apple","mango","pineapple"
 
-print(favorite_actors)
-print(favorite_actors[0])
+print(favorite_fruits)
+print(favorite_fruits[0])
