@@ -1,12 +1,14 @@
 first = 20
-second = 30
-third = 40
+second = 8
+third = 9
 
 if first > second:
     if first > third:
-        print("First Number is Greateer than Other 2")
-elif third > first:
-    print("Second Number is Greater than other 2")
-
+        print("First Number is Greatest")
+    else:
+        print("Third Number is Greatest")
 else:
-    print("")
+    if second > third:
+        print("Second Number is Greatest")
+    else:
+        print("Third Number is Greatest")
