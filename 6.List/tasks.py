@@ -72,4 +72,3 @@ print(datas)
 alpha = ["ball","apple","dog","cat","fish","elephant"]
 alpha.sort()
 print(alpha)
-
