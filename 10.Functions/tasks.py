@@ -32,16 +32,30 @@ def factorial(n):
    
 
 # 6.Reverse a String
-# def reverse(str):
-#    for i in len(str - 1):
-#       return i
-# print(reverse("Maarison"))
+def reverse(str):
+   return str[::-1]
+print(reverse("Maarison"))
 
 # 7.Count Characters
 def caharcerscount(word):
-   return word.count("a")
+   return word.count("a")   
 print(caharcerscount("Maarison"))
 
 # 8.Sum of Squares
-def sum_of_squares(n):
-   pass
+def sum_of_squares(i,j):
+   return i * i + j * j
+print(sum_of_squares(8,8))
+
+
+# 9.Palindrom
+def palindrom(name):
+   if name == name[::-1]:
+      return True
+   else:
+      return False
+print(palindrom("Mom"))
+
+# 10.Febonacci
+
+
+# 11.Armstrong Number
