@@ -1,4 +1,6 @@
-class animal:
+# class
+class animal: 
+    # Constructor
     def __init__(self,name,gender):
         self.name = name
         self.gender = gender
@@ -8,10 +10,11 @@ class animal:
 
 
 
-
+# Objects
 dog = animal("tom","male")
 cat = animal("cherry","female")
 cat.name = "Tommy"
+
 
 # print(dog.name)
 # print(cat.name)

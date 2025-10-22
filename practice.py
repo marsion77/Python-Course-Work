@@ -1,26 +1,10 @@
-class animal:
-    def sound(self):
-        print("I am a Animal")
-    
+# for i in range(1,10):
+#     for j in range(1,10):
+#         print('*')
+#     print('*')
 
-class dog(animal):
-    def sound(self):
-        print("I am a Dog")
-
-class cat(animal):
-    def sound(self):
-        print("I am a cat")
-
-
-ani = animal()
-mycat = cat()
-mydog = dog()
-
-# ani.sound()
-# mycat.sound()
-# mydog.sound()
-
-animals = [ani, mycat, mydog]
-
-for a in animals:
-    a.sound()
+# a = 11
+# if a > 0 and a<20 and a>10:
+#     print("The Number is Between 10 to 20")
+# else:
+#     print("Not")
