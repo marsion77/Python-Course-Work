@@ -13,10 +13,10 @@ class animal:
 # Objects
 dog = animal("tom","male")
 cat = animal("cherry","female")
-cat.name = "Tommy"
+# cat.name = "Tommy"
 
 
-# print(dog.name)
-# print(cat.name)
+print(dog.name)
+print(cat.name)
 cat.sound()
 
